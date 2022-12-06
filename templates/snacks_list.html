@@ -9,4 +9,8 @@
 <button><a href="{% url 'snacks_delete' snack.pk %}">Delete</a></button>
 
 {% endfor %}
+<br></br>
+<div>
+    <button><a href="{% url 'snacks_create'%}">Create New Snack</a></button>
+</div>
 {% endblock content%}
